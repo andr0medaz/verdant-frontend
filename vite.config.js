@@ -7,7 +7,13 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss()
+  
   ],
-
- 
+  server: {
+    allowedHosts: [
+      "verdant.adminmonitoringanak.my.id"
+    ],
+    host: true,
+    port: 5173
+  }
 })

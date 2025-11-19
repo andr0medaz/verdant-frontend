@@ -55,7 +55,8 @@ export default function ResultPage() {
 
   // Ambil data deteksi
   const detection = results?.detections?.[0];
-  const imageUrl = results?.image_path ? `http://127.0.0.1:8000/${results.output_path}` : null;
+  // const imageUrl = results?.image_path ? `http://127.0.0.1:8000/${results.output_path}` : null;
+  const imageUrl = results?.image_path ? `https://modelapi.adminmonitoringanak.my.id/${results.output_path}` : null;
 
   // --- 3. useEffect UNTUK MEMANGGIL LARAVEL (DUMMY) ---
   useEffect(() => {

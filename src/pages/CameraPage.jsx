@@ -35,7 +35,8 @@ export default function CameraPage() {
 
     // 3. Kirim ke Backend FastAPI
     try {
-      const response = await fetch('http://127.0.0.1:8000/predict/', { // Asumsi endpointnya /detect
+      // const response = await fetch('http://127.0.0.1:8000/predict/', { // Asumsi endpointnya /detect
+      const response = await fetch('https://modelapi.adminmonitoringanak.my.id/predict/', { // Asumsi endpointnya /detect
         method: 'POST',
         body: formData,
       });

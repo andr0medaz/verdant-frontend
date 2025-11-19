@@ -13,7 +13,9 @@ const banners = [
   },
   {
     id: 2,
-    // ... slide kedua ...
+    title: "Ada yang baru di PKK Agropark",
+    description: "Sekarang agropark ada taman buah anggur lohh",
+    imageSrc: "/public/assets/anggur.svg",
   },
 ];
 
