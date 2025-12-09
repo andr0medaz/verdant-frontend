@@ -12,9 +12,9 @@ export default function BannerCard({ title, description, imageSrc }) {
         
         {/* Wadah Ikon Bank */}
         <div className="flex space-x-2">
-          <img src="/public/assets/bca.svg" alt="BCA" className="h-4" />
-          <img src="/public/assets/bni.svg" alt="BNI" className="h-4" />
-          <img src="/public/assets/mastercard.svg" alt="Mastercard" className="h-4" />
+          <img src="/assets/bca.svg" alt="BCA" className="h-4" />
+          <img src="/assets/bni.svg" alt="BNI" className="h-4" />
+          <img src="/assets/mastercard.svg" alt="Mastercard" className="h-4" />
         </div>
       </div>
       

@@ -9,13 +9,13 @@ const banners = [
     id: 1,
     title: "Ayo makan sehat",
     description: "Dengan makan sayur sehat organik dari pkk agropark",
-    imageSrc: "/public/assets/salad.png", // Tambahkan path gambar
+    imageSrc: "/assets/salad.png", // Tambahkan path gambar
   },
   {
     id: 2,
     title: "Ada yang baru di PKK Agropark",
     description: "Sekarang agropark ada taman buah anggur lohh",
-    imageSrc: "/public/assets/anggur.svg",
+    imageSrc: "/assets/anggur.svg",
   },
 ];
 
