@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { PhotoIcon } from '@heroicons/react/24/solid';
 
 export default function GalleryUpload() {
+  const API_URL = "https://controlledly-larcher-olene.ngrok-free.dev";
   const navigate = useNavigate();
   const fileInputRef = useRef(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -19,8 +20,9 @@ export default function GalleryUpload() {
     formData.append('file', file);
 
     try {
+      const response = await fetch(`${API_URL}/predict/` , {
       // const response = await fetch('http://127.0.0.1:8000/predict/' , {
-      const response = await fetch('https://modelapi.adminmonitoringanak.my.id/predict/', { 
+      // const response = await fetch('https://modelapi.adminmonitoringanak.my.id/predict/', { 
         method: 'POST',
         body: formData,
       });

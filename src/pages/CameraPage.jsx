@@ -17,6 +17,7 @@ function dataURLtoFile(dataurl, filename) {
 }
 
 export default function CameraPage() {
+  const API_URL = "https://controlledly-larcher-olene.ngrok-free.dev";
   const webcamRef = useRef(null);
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
@@ -35,8 +36,9 @@ export default function CameraPage() {
 
     // 3. Kirim ke Backend FastAPI
     try {
+      const response = await fetch(`${API_URL}/predict/`, { // Asumsi endpointnya /detect
       // const response = await fetch('http://127.0.0.1:8000/predict/', { // Asumsi endpointnya /detect
-      const response = await fetch('https://modelapi.adminmonitoringanak.my.id/predict/', { // Asumsi endpointnya /detect
+      // const response = await fetch('https://modelapi.adminmonitoringanak.my.id/predict/', { // Asumsi endpointnya /detect
         method: 'POST',
         body: formData,
       });

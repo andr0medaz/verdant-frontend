@@ -16,7 +16,7 @@ export default function DetectionPage() {
         <div className="flex items-center justify-center relative">
           {/* Tombol Kembali */}
           <button 
-            onClick={() => navigate(-1)} // -1 berarti kembali ke halaman sebelumnya
+            onClick={() => navigate('/')} // -1 berarti kembali ke halaman sebelumnya
             className="p-1 rounded-full hover:bg-black/10 absolute left-0 top-1/2 -translate-y-1/2"
           >
             <ArrowLeftIcon className="h-5 w-5 text-gray-800" />

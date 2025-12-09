@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   server: {
     allowedHosts: [
-      "verdant.adminmonitoringanak.my.id"
+      "controlledly-larcher-olene.ngrok-free.dev"
     ],
     host: true,
     port: 5173
