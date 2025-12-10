@@ -24,6 +24,38 @@ const fetchDummyPlantInfo = (className) => {
         "Kaya akan Vitamin C",
         "Meredakan nyeri (capsaicin)"
       ]
+    },
+    "okra": {
+      "nama_lokal": "okra",
+      "manfaat": [
+        "Melancarkan pencernaan",
+        "menurunkan kolesterol",
+        "Meningkatkan daya tahan tubuh"
+      ]
+    },
+    "tomat_rampai": {
+      "nama_lokal": "rampai",
+      "manfaat": [
+        "kaya vitamin C",
+        "kaya antioksidan dan serat",
+        "menjaga kesehatan kulit"
+      ]
+    },
+    "sawi": {
+      "nama_lokal": "sawi",
+      "manfaat": [
+        "kaya akan vitamin A,C,dan K",
+        "Membantu meningkatkan kekebalan tubuh",
+        "Mencegah kanker karena mengandung glukosinolat"
+      ]
+    },
+    "kucai": {
+      "nama_lokal": "kucai",
+      "manfaat": [
+        "bermanfaat untuk kesehatan otak",
+        "bagus untuk kesehatan otak",
+        "mencegah osteoporosis)"
+      ]
     }
   };
 
